@@ -28,7 +28,7 @@ How to run
 2. Keep datawarehouse.py and the datasets folder together.
 3. Run from a terminal in the extracted folder:
 
-     python datawarehouse.py
+     python ml.py
 
 4. In the application, the included datasets folder is selected by default.
 5. Click RUN FULL PIPELINE, or run the four pipeline stages one by one.
