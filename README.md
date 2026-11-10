@@ -2,8 +2,7 @@
 
 A desktop data warehouse application built in Python. It loads six CRM and ERP CSV files through a Bronze → Silver → Gold (medallion) pipeline on SQLite, then uses the clean data for BI charts, ad-hoc SQL, customer segmentation (k-means) and a 3 to 5 year sales forecast. A secure login with admin approval protects access.
 
-<img src="architecture_live_poster.png" width="800" alt="Dashboard">
-
+![Project Screenshot](./architecture_live_poster.png)
 
 ## Project Overview
 
