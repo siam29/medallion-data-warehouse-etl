@@ -1523,7 +1523,7 @@ class App:
         cv.delete("all")
         cv.create_text(10, 12, text="Monthly sales trend (gold_agg_monthly_sales)", anchor="w", font=("Segoe UI", 11, "bold"))
         top = max(x[1] for x in r)
-        pts = []
+        pts = []   
         for i, (m, v) in enumerate(r):
             x = 50 + i * (1130 / max(1, len(r) - 1))
             y = 220 - 170 * v / top
