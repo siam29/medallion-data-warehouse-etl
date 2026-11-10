@@ -17,3 +17,6 @@ A desktop data warehouse application built in Python. It loads six CRM and ERP C
 | **ML** | K-means (descriptive) and regression forecast (predictive), pure Python |
 | **Charts** | Drawn on a Tkinter Canvas, no matplotlib |
 | **Dependencies** | None beyond the Python standard library |
+
+## Run this code 
+``` python ml.py ```
