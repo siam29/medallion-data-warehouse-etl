@@ -1,10 +1,9 @@
 # medallion-data-warehouse-etl
-Data Warehouse ETL with BI and ML Forecasting
 
 A desktop data warehouse application built in Python. It loads six CRM and ERP CSV files through a Bronze → Silver → Gold (medallion) pipeline on SQLite, then uses the clean data for BI charts, ad-hoc SQL, customer segmentation (k-means) and a 3 to 5 year sales forecast. A secure login with admin approval protects access.
 
 ## Project overview
-Item	Details
+Item	Details <br>
 Goal	Show a complete data warehouse: raw CSV to business insight, BI and ML
 Language	Python 3.8+
 UI	Tkinter (tk, ttk, messagebox, filedialog)
